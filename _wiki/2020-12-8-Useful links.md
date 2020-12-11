@@ -11,6 +11,10 @@ My Favorites and the description.
 
 <br/>
 
+## Pytorch
+
+[pytorch专门为研究人员快速实现用的一个库](https://pytorch-lightning-bolts.readthedocs.io/en/latest/introduction_guide.html)
+
 ## Neural ODE
 
 [Problem when rtol and atol are iterables](https://github.com/rtqichen/torchdiffeq/issues/4)
