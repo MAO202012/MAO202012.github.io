@@ -13,7 +13,7 @@ My Favorites and the description.
 
 ## VAE
 
-https://spaces.ac.cn/archives/5253
+[苏剑林 VAE1](https://spaces.ac.cn/archives/5253)
 
 
 ## Pytorch
