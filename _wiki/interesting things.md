@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 好玩的事
-categories: Cat
-description: 
+categories: top
+description: 置顶
 keywords: 
 comments: true
 topmost: ture

@@ -12,7 +12,7 @@ permalink: /wiki/
 
 <ul class="listing">
 {% for wiki in site.wiki %}
-{% if wiki.title != "Wiki Template" and wiki.topmost == true %}
+{% if wiki.title != "Wiki Template" and wiki.categories == top %}
 <li class="listing-item"><a href="{{ site.url }}{{ wiki.url }}"><span class="top-most-flag">[Top most]</span>{{ wiki.title }}</a></li>
 {% endif %}
 {% endfor %}
