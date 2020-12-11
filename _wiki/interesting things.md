@@ -5,7 +5,7 @@ categories: top
 description: 置顶
 keywords: 
 comments: true
-topmost: ture
+topmost: true
 ---
 
 ## 2020.12.11
