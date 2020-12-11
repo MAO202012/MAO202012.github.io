@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: post
 title: 好玩的事
 categories: Cat
 description: 
