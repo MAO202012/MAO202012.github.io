@@ -9,4 +9,4 @@ I focus on time series modeling with neural network.
 
 ### Contact me
 
-[ppeak@foxmail.com](mailto:ppeak@foxmail.com)
+[MAO202012@yeah.com](mailto:MAO202012@yeah.com)
