@@ -120,17 +120,17 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: 
-    repo: 
+    owner: MAO202012
+    repo: MAO202012.github.io
     oauth:
-        client_id: 
-        client_secret: 
+        client_id: e3ddda745eea7c5c5767
+        client_secret: 9bad0d01e92b57be192fd732336b72791aa5054a 
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: 
-    repo: 
-    clientID: 
-    clientSecret: 
+    owner: MAO202012
+    repo: MAO202012.github.io
+    clientID: 61444e924085d0c1c23a
+    clientSecret: 55f6a449c0d48de5a4ad5ae144f91d463982a02d
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
