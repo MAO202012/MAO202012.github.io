@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cat
+title: 猫窝
 description: 住在Wiki里面的猫
 keywords: 猫窝, Cat
 comments: false
