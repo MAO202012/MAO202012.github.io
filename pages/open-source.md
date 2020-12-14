@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 下载
 keywords: 
 description: 
