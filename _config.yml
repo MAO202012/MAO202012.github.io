@@ -61,9 +61,9 @@ navs:
 #     href: /archives/
 #     label: Photograph
 
-#   -
-#     href: /open-source/
-#     label: Cattery
+   -
+     href: /open-source/
+     label: 下载
 
   -
     href: /wiki/
