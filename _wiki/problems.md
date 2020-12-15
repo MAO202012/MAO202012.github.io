@@ -9,7 +9,7 @@ comments: true
 
 ## neural ode 里面 latent ode的重构误差是怎么实现的
 <div align="center"> 
-    <img src="https://MAO202012.github.io/images/12.14/1.png" style="zoom:100%" />
+    <img src="https://MAO202012.github.io/images/1.png" style="zoom:100%" />
     
  
 </div> 
