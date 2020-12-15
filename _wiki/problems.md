@@ -6,7 +6,6 @@ description:
 keywords: 
 comments: true
 ---
-## 2020.12.15 VRNN更新时ht为什么要和ht-1,Xt,Zt都相关
 
 ## 2020.12.11 neural ode 里面 latent ode的重构误差是怎么实现的
 <div align="center"> 
