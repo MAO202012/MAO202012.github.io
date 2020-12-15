@@ -6,8 +6,9 @@ description:
 keywords: 
 comments: true
 ---
+## 2020.12.15 VRNN更新时ht为什么要和ht-1,Xt,Zt都相关
 
-## neural ode 里面 latent ode的重构误差是怎么实现的
+## 2020.12.11 neural ode 里面 latent ode的重构误差是怎么实现的
 <div align="center"> 
     <img src="https://MAO202012.github.io/images/1.png" style="zoom:100%" />
     
@@ -25,7 +26,7 @@ logpx = log_normal_pdf(
 ```
 [rtqichen/torchdiffeq/examples/latent ode](https://github.com/rtqichen/torchdiffeq)
 
-## neural ode 里面最后一部分的泊松过程是怎么添加进loss的
+## 2020.12.11 neural ode 里面最后一部分的泊松过程是怎么添加进loss的
 ![image-20201213175605871](https://RuifMaxx.github.io/images/12.14/16.png)
 
 the joint distribution is defined as:
@@ -38,4 +39,3 @@ the joint distribution is defined as:
 
 
 ![image-20201213175704761](https://RuifMaxx.github.io/images/12.14/17.png)
-## 2020.12.15 VRNN更新时ht为什么要和ht-1,Xt,Zt都相关
