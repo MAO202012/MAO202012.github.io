@@ -28,7 +28,7 @@ Batch_Size（批大小）：
 
 每批样本的大小。
 
-Iteration（一次迭代）：
+Iteration（batch_idx/一次迭代）：
 
 训练一个Batch就是一次Iteration（这个概念跟程序语言中的迭代器相似）。
 
