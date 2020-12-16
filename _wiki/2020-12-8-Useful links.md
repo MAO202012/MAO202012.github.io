@@ -13,6 +13,7 @@ My Favorites and the description.
 
 ## pytorch GPU
 [Pytorch将模型加载到GPU中训练时遇到的坑](https://blog.csdn.net/weixin_42118374/article/details/105102153)
+[训练网络loss出现Nan解决办法](https://zhuanlan.zhihu.com/p/89588946)
 
 ## 三个概念：Epoch, Batch, Iteration
 
