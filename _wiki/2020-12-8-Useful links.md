@@ -10,6 +10,10 @@ comments: false
 My Favorites and the description.
 
 <br/>
+
+## pytorch GPU
+[Pytorch将模型加载到GPU中训练时遇到的坑](https://blog.csdn.net/weixin_42118374/article/details/105102153)
+
 ## 三个概念：Epoch, Batch, Iteration
 
 Epoch（时期）：
