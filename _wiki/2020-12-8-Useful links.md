@@ -16,6 +16,10 @@ My Favorites and the description.
 
 [训练网络loss出现Nan解决办法](https://zhuanlan.zhihu.com/p/89588946)
 
+[RuntimeError: DataLoader worker (pid(s) 9528, 8320) exited unexpectedly问题解决记录](https://blog.csdn.net/gyl1050097468/article/details/107523290)
+
+[]()
+
 ## 三个概念：Epoch, Batch, Iteration
 
 Epoch（时期）：
