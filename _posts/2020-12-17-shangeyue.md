@@ -11,19 +11,18 @@ keywords:
 
 
 ```python
-class lovers(SDU.SDUers) 
-	
-	def __init__(self):
-		super('自动化科学班',self).__init__()
-        self.love = love
-        self.i = SDU.Boy('MAO')
-        self.u = SDU.Girl('Xiaoxiao')
-    	self.begin = date(2020.9.17)
-        self.duration = time(forever)
+class lovers(SDU.SDUers):
+    
+   def __init__(self):
+      super('自动化科学班',self).__init__()
+      self.love = loveself.i = SDU.Boy('MAO')
+      self.u = SDU.Girl('Xiaoxiao')
+      self.begin = date(2020.9.17)
+      self.duration = time(forever)
         
-    def love(self):
-    	loving = self.love(self.i, self.u, self.begin, self.duration)
-        return loving
+   def love(self):
+      loving = self.love(self.i, self.u, self.begin, self.duration)
+      return loving
 ```
 
 
