@@ -12,8 +12,9 @@ keywords:
 
 ```python
 class lovers(SDU.SDUers):
-   # we both SDUers. 
+   
    def __init__(self):
+      # we both SDUers. 
       super('自动化科学班',self).__init__()
       self.love = love
       self.i = SDU.Boy('MAO')
