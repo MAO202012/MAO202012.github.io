@@ -22,6 +22,8 @@ My Favorites and the description.
 
 [生成时间序列的VAE——VRNN与SRNN模型浅析](https://zhuanlan.zhihu.com/p/272106709)
 
+[两个多变量高斯分布之间的KL散度](https://zhuanlan.zhihu.com/p/55778595)
+
 ## 基础数学
 
 [2.6 随机变量的变换](https://zhuanlan.zhihu.com/p/35965931)
