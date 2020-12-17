@@ -109,6 +109,8 @@ From MAO
 
 ## 11月7日
 
+我们去看电影呐
+
 ![19](https://MAO202012.github.io/images/xiaoxiaohemao/19.jpg)
 
 ![18](https://MAO202012.github.io/images/xiaoxiaohemao/18.jpg)
