@@ -11,6 +11,10 @@ My Favorites and the description.
 
 <br/>
 
+## 基础数学
+
+[2.6 随机变量的变换](https://zhuanlan.zhihu.com/p/35965931)
+
 ## pytorch GPU
 [Pytorch将模型加载到GPU中训练时遇到的坑](https://blog.csdn.net/weixin_42118374/article/details/105102153)
 
