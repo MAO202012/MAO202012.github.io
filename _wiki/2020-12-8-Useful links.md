@@ -11,6 +11,10 @@ My Favorites and the description.
 
 <br/>
 
+## VRNN and SRNN
+
+[生成时间序列的VAE——VRNN与SRNN模型浅析](https://zhuanlan.zhihu.com/p/272106709)
+
 ## 基础数学
 
 [2.6 随机变量的变换](https://zhuanlan.zhihu.com/p/35965931)
