@@ -129,11 +129,15 @@ From MAO
 
 ## 11月23日
 
+想给你送一杯奶茶，恰巧你也买了一杯
+
 ![15](https://MAO202012.github.io/images/xiaoxiaohemao/15.jpg)
 
 
 
 ## 12月4日
+
+我认输
 
 ![16](https://MAO202012.github.io/images/xiaoxiaohemao/16.jpg)
 
