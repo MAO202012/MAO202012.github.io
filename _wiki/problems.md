@@ -7,6 +7,14 @@ keywords:
 comments: true
 ---
 
+## 2020.12.17 概率图？怎么得来的
+<div align="center"> 
+    <img src="https://MAO202012.github.io/images/2.png" style="zoom:100%" />
+    
+ 
+</div> 
+[VRNN,SRNN]（https://zhuanlan.zhihu.com/p/272106709）
+
 ## 2020.12.11 neural ode 里面 latent ode的重构误差是怎么实现的
 <div align="center"> 
     <img src="https://MAO202012.github.io/images/1.png" style="zoom:100%" />
