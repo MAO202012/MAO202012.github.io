@@ -7,7 +7,7 @@ keywords:
 comments: true
 ---
 
-## 2020.12.17 概率图？怎么得来的
+## 2020.12.17 涉及概率图的这个式子怎么得来的？
 <div align="center"> 
     <img src="https://MAO202012.github.io/images/2.png" style="zoom:100%" />
     
