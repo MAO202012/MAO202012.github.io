@@ -12,7 +12,7 @@ keywords:
 
 ```python
 class lovers(SDU.SDUers):
-    
+   # we both SDUers. 
    def __init__(self):
       super('自动化科学班',self).__init__()
       self.love = love
@@ -22,6 +22,7 @@ class lovers(SDU.SDUers):
       self.duration = time(forever)
         
    def love(self):
+      # And I told her I always love you on 2020.9.17
       loving = self.love(self.i, self.u, self.begin, self.duration)
       return loving
 ```
