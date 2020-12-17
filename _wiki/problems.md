@@ -13,7 +13,7 @@ comments: true
     
  
 </div> 
-[VRNN,SRNN]（https://zhuanlan.zhihu.com/p/272106709）
+[VRNN, SRNN](https://zhuanlan.zhihu.com/p/272106709)
 
 ## 2020.12.11 neural ode 里面 latent ode的重构误差是怎么实现的
 <div align="center"> 
