@@ -11,7 +11,7 @@ My Favorites and the description.
 
 <br/>
 
-## nvidia-smi.exe
+## nvidia-smi.exe-监控GPU状态
 
 1.打开CMD
 
