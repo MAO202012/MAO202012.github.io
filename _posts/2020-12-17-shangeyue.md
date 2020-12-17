@@ -120,7 +120,13 @@ To Xiaoxiao:
 
 ## 11月22日
 
+我肯定在前世说过爱你
+
+![0](https://MAO202012.github.io/images/xiaoxiaohemao/0.jpg)
+
 ![17](https://MAO202012.github.io/images/xiaoxiaohemao/17.jpg)
+
+![20](https://MAO202012.github.io/images/xiaoxiaohemao/20.jpg)
 
 ## 11月23日
 
@@ -136,5 +142,5 @@ To Xiaoxiao:
 
 我们在一起三个月啦！
 
-![20](https://MAO202012.github.io/images/xiaoxiaohemao/20.jpg)
+
 
