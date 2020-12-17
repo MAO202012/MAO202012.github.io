@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Useful links for learning
+title: 学习助记本
 categories: Cat
 description: My Favorites and the description.
 keywords: Favorites
@@ -10,6 +10,21 @@ comments: false
 My Favorites and the description.
 
 <br/>
+
+## nvidia-smi.exe-监控GPU状态
+
+1.打开CMD
+
+2.输入"C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe"
+
+
+## VRNN and SRNN
+
+[生成时间序列的VAE——VRNN与SRNN模型浅析](https://zhuanlan.zhihu.com/p/272106709)
+
+## 基础数学
+
+[2.6 随机变量的变换](https://zhuanlan.zhihu.com/p/35965931)
 
 ## pytorch GPU
 [Pytorch将模型加载到GPU中训练时遇到的坑](https://blog.csdn.net/weixin_42118374/article/details/105102153)
