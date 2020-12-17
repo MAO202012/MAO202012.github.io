@@ -6,7 +6,7 @@ description:
 keywords: 
 ---
 
-# 潇潇和猫
+我们在一起三个月啦！
 
 
 
@@ -34,7 +34,7 @@ class lovers(SDU.SDUers)
 
 
 
-![1](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\1.jpg)
+![1](https://MAO202012.github.io/images/xiaoxiaohemao/1.jpg)
 
 
 
@@ -44,7 +44,7 @@ class lovers(SDU.SDUers)
 
 
 
-![2](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\2.jpg)
+![2](https://MAO202012.github.io/images/xiaoxiaohemao/2.jpg)
 
 
 
@@ -52,9 +52,9 @@ class lovers(SDU.SDUers)
 
 那天晚上我刚刚看完信条，而你第二天要去考运筹学。而从那天起，我们开始聊得火热
 
-![3](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\3.jpg)
+![3](https://MAO202012.github.io/images/xiaoxiaohemao/3.jpg)
 
-![4](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\4.jpg)
+![4](https://MAO202012.github.io/images/xiaoxiaohemao/4.jpg)
 
 
 
@@ -64,35 +64,35 @@ class lovers(SDU.SDUers)
 
 
 
-![10](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\10.jpg)
+![10](https://MAO202012.github.io/images/xiaoxiaohemao/10.jpg)
 
-![5](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\5.jpg)
-
-
-
-![6](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\6.jpg)
+![5](https://MAO202012.github.io/images/xiaoxiaohemao/5.jpg)
 
 
 
-![7](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\7.jpg)
+![6](https://MAO202012.github.io/images/xiaoxiaohemao/6.jpg)
 
-![9](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\9.jpg)
+
+
+![7](https://MAO202012.github.io/images/xiaoxiaohemao/7.jpg)
+
+![9](https://MAO202012.github.io/images/xiaoxiaohemao/9.jpg)
 
 
 
 ## 9月24日
 
-![11](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\11.jpg)
+![11](https://MAO202012.github.io/images/xiaoxiaohemao/11.jpg)
 
 
 
 ## 10月4日
 
-![12](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\12.jpg)
+![12](https://MAO202012.github.io/images/xiaoxiaohemao/12.jpg)
 
-![13](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\13.jpg)
+![13](https://MAO202012.github.io/images/xiaoxiaohemao/13.jpg)
 
-![14](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\14.jpg)
+![14](https://MAO202012.github.io/images/xiaoxiaohemao/14.jpg)
 
 
 
@@ -110,31 +110,31 @@ To Xiaoxiao:
 
 ## 11月7日
 
-![19](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\19.jpg)
+![19](https://MAO202012.github.io/images/xiaoxiaohemao/19.jpg)
 
-![18](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\18.jpg)
+![18](https://MAO202012.github.io/images/xiaoxiaohemao/18.jpg)
 
-![21](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\21.jpg)
+![21](https://MAO202012.github.io/images/xiaoxiaohemao/21.jpg)
 
 
 
 ## 11月22日
 
-![17](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\17.jpg)
+![17](https://MAO202012.github.io/images/xiaoxiaohemao/17.jpg)
 
 ## 11月23日
 
-![15](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\15.jpg)
+![15](https://MAO202012.github.io/images/xiaoxiaohemao/15.jpg)
 
 
 
 ## 12月4日
 
-![16](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\16.jpg)
+![16](https://MAO202012.github.io/images/xiaoxiaohemao/16.jpg)
 
 ## 12月17日
 
 我们在一起三个月啦！
 
-![20](E:\Documents\GitHub\MAO202012.github.io\images\xiaoxiaohemao\20.jpg)
+![20](https://MAO202012.github.io/images/xiaoxiaohemao/20.jpg)
 
