@@ -98,17 +98,19 @@ class lovers(SDU.SDUers):
 
 ## 11月1日
 
-```python
+
 To Xiaoxiao:
     
-    "让人开心的事情有很多：比如邮政路上阳光透过树梢撒在金黄的落叶上，比如栗子的香气或者罗小黑的可爱。但最让我开心的是，在这一切的一切之间，我遇到了你"
+“让人开心的事情有很多：比如邮政路上阳光透过树梢撒在金黄的落叶上，比如栗子的香气或者罗小黑的可爱。但最让我开心的是，在这一切的一切之间，我遇到了你”
     															
-        											From MAO
-                									2020.11.1
-    
-```
+From MAO
+
+2020.11.1
+ 
 
 ## 11月7日
+
+我们去看电影呐
 
 ![19](https://MAO202012.github.io/images/xiaoxiaohemao/19.jpg)
 
@@ -120,9 +122,17 @@ To Xiaoxiao:
 
 ## 11月22日
 
+我肯定在前世说过爱你
+
+![0](https://MAO202012.github.io/images/xiaoxiaohemao/0.jpg)
+
 ![17](https://MAO202012.github.io/images/xiaoxiaohemao/17.jpg)
 
+![20](https://MAO202012.github.io/images/xiaoxiaohemao/20.jpg)
+
 ## 11月23日
+
+想给你送一杯奶茶，恰巧你也买了一杯
 
 ![15](https://MAO202012.github.io/images/xiaoxiaohemao/15.jpg)
 
@@ -130,11 +140,13 @@ To Xiaoxiao:
 
 ## 12月4日
 
+我认输
+
 ![16](https://MAO202012.github.io/images/xiaoxiaohemao/16.jpg)
 
 ## 12月17日
 
 我们在一起三个月啦！
 
-![20](https://MAO202012.github.io/images/xiaoxiaohemao/20.jpg)
+
 
