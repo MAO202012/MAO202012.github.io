@@ -15,7 +15,7 @@ class lovers(SDU.SDUers):
     
    def __init__(self):
       super('自动化科学班',self).__init__()
-      self.love = loveself
+      self.love = love
       self.i = SDU.Boy('MAO')
       self.u = SDU.Girl('Xiaoxiao')
       self.begin = date(2020.9.17)
