@@ -14,7 +14,7 @@ keywords:
 class lovers(SDU.SDUers):
    
    def __init__(self):
-      # we both SDUers. 
+      # we both SDUers and major in automation science. 
       super('自动化科学班',self).__init__()
       self.love = love
       self.i = SDU.Boy('MAO')
