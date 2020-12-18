@@ -15,6 +15,8 @@ My Favorites and the description.
 
 pip install --user *     (* 为安装库的名字)
 
+([非root 用户安装pip 库](https://blog.csdn.net/yeyang911/article/details/78222158?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1.control))
+
 ## 跨盘符切换目录，安装ta-lib
 
 1.输入cd，可以显示当前目录的名称；
