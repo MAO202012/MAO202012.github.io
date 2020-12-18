@@ -11,6 +11,10 @@ My Favorites and the description.
 
 <br/>
 
+## linux下非root 用户安装pip 库
+
+pip install --user *     (* 为安装库的名字)
+
 ## 跨盘符切换目录，安装ta-lib
 
 1.输入cd，可以显示当前目录的名称；
