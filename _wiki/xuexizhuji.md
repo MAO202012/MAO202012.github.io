@@ -50,6 +50,8 @@ SystemExit: 2
 args = parser.parse_args(args=[])
 
 修改后即可使用。
+()
+[Jupyter Notebook使用parser.parse_args出现错误解决办法](https://blog.csdn.net/qq_34277608/article/details/97369630)
 
 ### linux下非root 用户安装pip 库
 
