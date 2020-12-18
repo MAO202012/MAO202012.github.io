@@ -11,11 +11,11 @@ keywords:
 
 
 ```python
-class lovers(SDU.SDUers):
+class automation science_lovers(SDU.SDUers):
    
    def __init__(self):
       # we both SDUers and major in automation science. 
-      super('自动化科学班',self).__init__()
+      super('automation science_lovers',self).__init__()
       self.love = love
       self.i = SDU.Boy('MAO')
       self.u = SDU.Girl('Xiaoxiao')
