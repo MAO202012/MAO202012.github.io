@@ -22,7 +22,7 @@ class lovers(SDU.SDUers):
       self.begin = date(2020.9.17)
       self.duration = time(forever)
         
-   def love(self):
+   def alwayslove(self):
       # And I told her I always love you on 2020.9.17
       loving = self.love(self.i, self.u, self.begin, self.duration)
       return loving
