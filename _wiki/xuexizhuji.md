@@ -19,7 +19,7 @@ My Favorites and the description.
 
 3.如果想要切换盘符，则要输入cd /d 路径；也可以不用cd指令，另一个方法是直接输入盘符：例如C:
 
-[https://www.lfd.uci.edu/~gohlke/pythonlibs/](https://www.lfd.uci.edu/~gohlke/pythonlibs/)
+[python的.whl https://www.lfd.uci.edu/~gohlke/pythonlibs/](https://www.lfd.uci.edu/~gohlke/pythonlibs/)
 
 ```
 (base) C:\Users\hp>cd /d D:\
