@@ -11,7 +11,47 @@ My Favorites and the description.
 
 <br/>
 
-## linux下非root 用户安装pip 库
+## JupyterLab
+
+### Jupyter Notebook使用parser.parse_args出现错误解决办法
+
+在Jupyter Notebook中使用args传递参数时出现错误：
+```
+---------------------------------------------------------------------------
+SystemExit                                Traceback (most recent call last)
+<ipython-input-11-9e7fc7cabd7c> in <module>
+     10 parser.add_argument('--adjoint', action='store_true')
+     11 parser.add_argument('--rate', type=float, default=1e-3)
+---> 12 args = parser.parse_args()
+     13 args.method = 'rk4'
+
+/opt/tljh/user/lib/python3.7/argparse.py in parse_args(self, args, namespace)
+   1750         if argv:
+   1751             msg = _('unrecognized arguments: %s')
+-> 1752             self.error(msg % ' '.join(argv))
+   1753         return args
+   1754 
+
+/opt/tljh/user/lib/python3.7/argparse.py in error(self, message)
+   2499         self.print_usage(_sys.stderr)
+   2500         args = {'prog': self.prog, 'message': message}
+-> 2501         self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+
+/opt/tljh/user/lib/python3.7/argparse.py in exit(self, status, message)
+   2486         if message:
+   2487             self._print_message(message, _sys.stderr)
+-> 2488         _sys.exit(status)
+   2489 
+   2490     def error(self, message):
+
+SystemExit: 2
+```
+将原始代码进行修改，修改后为：
+args = parser.parse_args(args=[])
+
+修改后即可使用。
+
+### linux下非root 用户安装pip 库
 
 pip install --user *     (* 为安装库的名字)
 
