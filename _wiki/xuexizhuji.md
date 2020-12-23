@@ -113,7 +113,14 @@ pip install --user *     (* 为安装库的名字)
 
 [RuntimeError: DataLoader worker (pid(s) 9528, 8320) exited unexpectedly问题解决记录](https://blog.csdn.net/gyl1050097468/article/details/107523290)
 
-[]()
+
+[深度学习PyTorch，TensorFlow中GPU利用率较低，CPU利用率很低，且模型训练速度很慢的问题总结与分析](https://blog.csdn.net/qq_32998593/article/details/92849585)
+
+总结一下，第一是增加batch size，增加GPU的内存占用率，尽量用完内存，而不要剩一半，空的内存给另外的程序用，两个任务的效率都会非常低。
+
+第二，在数据加载时候，将num_workers线程数设置稍微大一点，推荐是8,16等，且开启pin_memory=True。，直接映射数据到GPU的专用内存，减少数据传输时间。
+
+GPU和CPU的数据瓶颈得到解决。整体性能得到权衡。不要将整个任务放在主进程里面做，这样消耗CPU，且速度和性能极为低下。
 
 ## 三个概念：Epoch, Batch, Iteration
 
