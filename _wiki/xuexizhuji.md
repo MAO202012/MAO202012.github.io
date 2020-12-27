@@ -122,8 +122,147 @@ pip install --user *     (* 为安装库的名字)
 
 GPU和CPU的数据瓶颈得到解决。整体性能得到权衡。不要将整个任务放在主进程里面做，这样消耗CPU，且速度和性能极为低下。
 
+## torch
+
 链表`h[-1]`即为读取链表最后一个元素
 
+### transpose
+pytorch中的transpose方法的作用是交换矩阵的两个维度，transpose(dim0, dim1) → Tensor，其和torch.transpose()函数作用一样。
+torch.transpose():
+
+```python
+torch.transpose(input, dim0, dim1) → Tensor
+```
+
+Returns a tensor that is a transposed version of input. The given dimensions dim0 and dim1 are swapped.
+The resulting out tensor shares it’s underlying storage with the input tensor, so changing the content of one would change the content of the other.
+第二条是说输出和输入是共享一块内存的，所以两者同时改变。
+
+```python
+Parameters
+input (Tensor) – the input tensor.
+
+dim0 (int) – the first dimension to be transposed
+
+dim1 (int) – the second dimension to be transposed
+
+```
+
+例：
+
+```python
+>>> x = torch.randn(2, 3)
+>>> x
+tensor([[ 1.0028, -0.9893,  0.5809],
+        [-0.1669,  0.7299,  0.4942]])
+>>> torch.transpose(x, 0, 1)
+tensor([[ 1.0028, -0.1669],
+        [-0.9893,  0.7299],
+        [ 0.5809,  0.4942]])
+
+```
+
+需要注意的几点：
+1、transpose中的两个维度参数的顺序是可以交换位置的，即transpose（x, 0, 1,) 和transpose（x, 1, 0）效果是相同的。如下：
+
+```python
+>>> import torch
+>>> x = torch.randn(2, 3)
+>>> x
+tensor([[-0.4343,  0.4643, -1.1345],
+        [-0.3667, -1.9913,  1.3485]])
+>>> torch.transpose(x, 1, 0)
+tensor([[-0.4343, -0.3667],
+        [ 0.4643, -1.9913],
+        [-1.1345,  1.3485]])
+>>> torch.transpose(x, 0, 1)
+tensor([[-0.4343, -0.3667],
+        [ 0.4643, -1.9913],
+        [-1.1345,  1.3485]])
+
+```
+
+2、transpose.()中只有两个参数，而torch.transpose（）函数中有三个参数。
+
+### torch.view torch.unsqueeze torch.expand torch.squeeze
+
+torch.view:
+```python
+import torch
+data=torch.rand(5,1,2,2)
+print(data)
+data=data.view(1,-1)
+print(data)
+
+
+     tensor([[[[0.0941, 0.2773],
+               [0.2198, 0.7047]]],
+             [[[0.2529, 0.2298],
+               [0.6547, 0.1199]]],
+             [[[0.4158, 0.8207],
+               [0.5976, 0.8898]]],
+             [[[0.3180, 0.1207],
+               [0.5187, 0.2206]]],
+             [[[0.1408, 0.8267],
+               [0.1628, 0.0117]]]])
+
+     tensor([[0.0941, 0.2773, 0.2198, 0.7047, 0.2529, 0.2298, 0.6547, 0.1199, 0.4158,
+              0.8207, 0.5976, 0.8898, 0.3180, 0.1207, 0.5187, 0.2206, 0.1408, 0.8267,
+              0.1628, 0.0117]])
+
+```
+```python
+import torch
+data=torch.rand(5,1,2,2)
+print(data)
+data=data.view(2,2,5)
+print(data)
+
+     tensor([[[[0.1348, 0.3472],
+               [0.5380, 0.4572]]],
+             [[[0.0183, 0.4443],
+               [0.5540, 0.6106]]],
+             [[[0.9612, 0.9878],
+               [0.6386, 0.2747]]],
+             [[[0.1795, 0.8365],
+               [0.8143, 0.9862]]],
+             [[[0.6079, 0.6228],
+               [0.8857, 0.5081]]]])
+     tensor([[[0.1348, 0.3472, 0.5380, 0.4572, 0.0183],
+              [0.4443, 0.5540, 0.6106, 0.9612, 0.9878]],
+             [[0.6386, 0.2747, 0.1795, 0.8365, 0.8143],
+              [0.9862, 0.6079, 0.6228, 0.8857, 0.5081]]])
+
+
+```
+torch.unsqueeze torch.expand:
+```
+def forward(self, ht, xf):
+   '''
+   Args:
+   ht (tensor): (1, hidden_size)
+   xf (tensor): (output_horizon, num_features)
+   '''
+   num_ts, output_horizon, num_features = xf.size()
+   print(xf.size())
+   num_ts, hidden_size = ht.size()
+   print(ht.size())
+   ht = ht.unsqueeze(1)
+   print(ht.size())
+   ht = ht.expand(num_ts, output_horizon, hidden_size)
+   print(ht.size())
+   # inp = (xf + ht).view(batch_size, -1) # batch_size, hidden_size, output_horizon
+   inp = torch.cat([xf, ht], dim=2).view(num_ts, -1)
+   print(torch.cat([xf, ht], dim=2).size(),inp.size())
+   
+   
+     torch.Size([1, 72, 2])
+     torch.Size([1, 50])
+     torch.Size([1, 1, 50])
+     torch.Size([1, 72, 50])
+     torch.Size([1, 72, 52]) torch.Size([1, 3744])
+```
+torch.squeeze为去掉维度为1的维度
 ## 三个概念：Epoch, Batch, Iteration
 
 Epoch（时期）：
