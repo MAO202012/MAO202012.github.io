@@ -107,6 +107,9 @@ pip install --user *     (* 为安装库的名字)
 [2.6 随机变量的变换](https://zhuanlan.zhihu.com/p/35965931)
 
 ## pytorch GPU
+
+[pytorch专门为研究人员快速实现用的一个库](https://pytorch-lightning-bolts.readthedocs.io/en/latest/introduction_guide.html)
+
 [Pytorch将模型加载到GPU中训练时遇到的坑](https://blog.csdn.net/weixin_42118374/article/details/105102153)
 
 [训练网络loss出现Nan解决办法](https://zhuanlan.zhihu.com/p/89588946)
@@ -263,7 +266,19 @@ def forward(self, ht, xf):
      torch.Size([1, 72, 52]) torch.Size([1, 3744])
 ```
 torch.unsqueeze(2)和torch.unsqueeze(1)为改变添加维度的位置。
+
 torch.squeeze为去掉维度为1的维度
+
+### embedding
+实际需求值y进行embedding:
+```python
+
+self.input_embed = nn.Linear(1, embedding_size)
+y = y.unsqueeze(2)
+y = self.input_embed(y)
+
+```
+
 ## 三个概念：Epoch, Batch, Iteration
 
 Epoch（时期）：
@@ -305,9 +320,6 @@ Iteration（batch_idx/一次迭代）：
 [苏剑林 VAE1](https://spaces.ac.cn/archives/5253)
 
 
-## Pytorch
-
-[pytorch专门为研究人员快速实现用的一个库](https://pytorch-lightning-bolts.readthedocs.io/en/latest/introduction_guide.html)
 
 ## Neural ODE
 
