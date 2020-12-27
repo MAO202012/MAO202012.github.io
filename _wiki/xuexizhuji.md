@@ -262,6 +262,7 @@ def forward(self, ht, xf):
      torch.Size([1, 72, 50])
      torch.Size([1, 72, 52]) torch.Size([1, 3744])
 ```
+torch.unsqueeze(2)和torch.unsqueeze(1)为改变添加维度的位置。
 torch.squeeze为去掉维度为1的维度
 ## 三个概念：Epoch, Batch, Iteration
 
