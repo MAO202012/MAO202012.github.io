@@ -279,7 +279,9 @@ y = self.input_embed(y)
 
 ```
 
-### 制作自己的数据集 `util.train_test_split`
+### 制作自己的数据集
+
+util 库来自[jingw2/demand_forecast](https://github.com/jingw2/demand_forecast)
 
 ```python
 import util
@@ -287,6 +289,10 @@ import util
 Xtr, ytr, Xte, yte = util.train_test_split(X, y)
 
 ```
+### torch.zero_like
+
+[https://pytorch.org/docs/stable/generated/torch.zeros_like.html?highlight=zeros_like#torch.zeros_like](https://pytorch.org/docs/stable/generated/torch.zeros_like.html?highlight=zeros_like#torch.zeros_like)
+
 
 ## 三个概念：Epoch, Batch, Iteration
 
