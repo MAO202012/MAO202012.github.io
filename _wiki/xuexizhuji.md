@@ -279,6 +279,15 @@ y = self.input_embed(y)
 
 ```
 
+### 制作自己的数据集 `util.train_test_split`
+
+```python
+import util
+# 将数据集划分为测试集和训练集
+Xtr, ytr, Xte, yte = util.train_test_split(X, y)
+
+```
+
 ## 三个概念：Epoch, Batch, Iteration
 
 Epoch（时期）：
