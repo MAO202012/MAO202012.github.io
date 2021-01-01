@@ -6,13 +6,24 @@ description:
 keywords: 
 comments: true
 ---
+## b_y是什么？
+
+[Joeltzy/StochasticRNN](https://github.com/Joeltzy/StochasticRNN)
+
+```python
+for batch_idx, (data, b_y) in enumerate(train_loader):   
+```
+
 ## VRNN代码
 
 ```python
 kld_loss, nll_loss, _, _ = model(data)
 ```
 跑什么？
+
 默认跑里面的forward？
+
+A:对，没错！
 
 ## 2020.12.17 涉及概率图的这个式子怎么得来的？
 <div align="center"> 

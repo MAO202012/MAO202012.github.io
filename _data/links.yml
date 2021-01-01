@@ -1,7 +1,11 @@
 - name: 治愈系
   url: https://www.juroku.net/
   src: life
-
+  
+- name: 成都市志 民俗方言志
+  url: http://cdhistory.chengdu.gov.cn/cdfz/bk/tbook?hasIndex=1&bookName=%E6%88%90%E9%83%BD%E5%B8%82%E5%BF%97-%E6%B0%91%E4%BF%97%E6%96%B9%E8%A8%80%E5%BF%97&bookId=0036&bookPages=648#1
+  src: life
+  
 - name: DeepTimeSeriesModel
   url: https://github.com/drzhang3/DeepTimeSeriesModel
   src: www
