@@ -129,6 +129,12 @@ pip install --user *     (* 为安装库的名字)
 
 GPU和CPU的数据瓶颈得到解决。整体性能得到权衡。不要将整个任务放在主进程里面做，这样消耗CPU，且速度和性能极为低下。
 
+`for batch_idx, (data,b_y) in enumerate(train_loader):`
+
+[Enumerate in python](https://www.geeksforgeeks.org/enumerate-in-python/#:~:text=Enumerate()%20method%20adds%20a,tuples%20using%20list()%20method.)
+
+batch_idx为迭代项，data为mnist中的tensor，b_y为tensor对应的数字。
+
 ## torch
 
 链表`h[-1]`即为读取链表最后一个元素
