@@ -110,6 +110,10 @@ pip install --user *     (* 为安装库的名字)
 
 [2.6 随机变量的变换](https://zhuanlan.zhihu.com/p/35965931)
 
+[机器学习——模型的评估方法速查手册（RMSE+RSE+MAE+RAE+R^2）](https://blog.csdn.net/qq_35456045/article/details/104523763)
+
+[二项分布与负二项分布的均值与方差推导](https://zhuanlan.zhihu.com/p/166653762)
+
 ## pytorch GPU
 
 [pytorch专门为研究人员快速实现用的一个库](https://pytorch-lightning-bolts.readthedocs.io/en/latest/introduction_guide.html)
