@@ -11,6 +11,10 @@ My Favorites and the description.
 
 <br/>
 
+## RNN
+
+[https://zhuanlan.zhihu.com/p/161565073](https://zhuanlan.zhihu.com/p/161565073)
+
 ## JupyterLab
 
 ### Jupyter Notebook使用parser.parse_args出现错误解决办法
