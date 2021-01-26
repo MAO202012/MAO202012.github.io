@@ -6,6 +6,7 @@ description: My Favorites and the description.
 keywords: Favorites
 comments: false
 ---
+转载自 https://huangzhongde.cn/post/2020-02-20-hugo-comments-plugin-valine/
 
 官网：https://valine.js.org
 
