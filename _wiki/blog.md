@@ -13,6 +13,7 @@ comments: false
 修改配置文件
 
 ```
+
 vim config.toml
   [params.valine]
     enable = true
@@ -23,11 +24,13 @@ vim config.toml
     avatar = 'mm'
     placeholder = '说点什么吧...'
     visitor = true
+    
 ```
 
 添加html代码
 
 ```
+
 mkdir layouts/partials
 vim layouts/partials/comments.html
   <!-- valine -->
@@ -51,11 +54,12 @@ vim layouts/partials/comments.html
     });
   </script>
   {{- end -}}
+  
  ``` 
  
   js在国内的源用不了，建议挂梯子把官网的源拷贝下来，然后自己建源
 
-另外引入mathjax的源的方法为
+另外引入mathjax的源的方法为：
 
 ```
   <script type="text/x-mathjax-config">
