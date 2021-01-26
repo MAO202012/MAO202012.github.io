@@ -50,7 +50,11 @@ vim config.toml
           <!-- valine -->
           {{- if .Site.Params.valine.enable -}}
           <!-- id 将作为查询条件 -->
-
+          <span id="{{ .RelPermalink }}" class="leancloud_visitors" data-flag-title="{{ .Title }}">
+          <span class="post-meta-item-text">文章阅读量 </span>
+          <span class="leancloud-visitors-count"><i class="leancloud-visitors-count"></i></span>次
+          <p></p>
+        </span>
           <div id="vcomments"></div>
           <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
           <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
