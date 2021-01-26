@@ -57,7 +57,7 @@ vim layouts/partials/comments.html
   
  ``` 
  
-  js在国内的源用不了，建议挂梯子把官网的源拷贝下来，然后自己建源
+js在国内的源用不了，建议挂梯子把官网的源拷贝下来，然后自己建源
 
 另外引入mathjax的源的方法为：
 
