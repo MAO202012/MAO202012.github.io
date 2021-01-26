@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 学习助记本
+title: 博客
 categories: Cat
 description: My Favorites and the description.
 keywords: Favorites
@@ -25,7 +25,7 @@ vim config.toml
 ```
 
 添加html代码
-
+```
 mkdir layouts/partials
 vim layouts/partials/comments.html
   <!-- valine -->
@@ -49,5 +49,5 @@ vim layouts/partials/comments.html
     });
   </script>
   {{- end -}}
-  
-  js在国内的源用不了，建议换源
+ ``` 
+  js在国内的源用不了，建议挂梯子把官网的源拷贝下来，然后自己建源
