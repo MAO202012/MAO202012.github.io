@@ -144,6 +144,7 @@ max-width:100%和width:100%的区别在于,max-width是相对于img自身的尺�
 ```
  img{
 display: block;(可不加 banner可以用)
+width:700px
 height: auto;
 max-width: 100%;（或者width：100%）
 }
