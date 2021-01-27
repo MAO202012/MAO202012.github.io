@@ -80,4 +80,35 @@ https://lovehxy.com/blog/post/hugo%E6%B7%BB%E5%8A%A0Valine%E8%AF%84%E8%AE%BA%E7%
 
 js在国内的源用不了，建议挂梯子把官网的源拷贝下来，然后自己建源
 
+## 把b站视频嵌入博客
 
+https://www.it520.org/2018/12/27/iframe-bilibili-youtube/
+
+解决办法如下：
+增加CSS样式如下：
+```
+.meta-media {
+  position: relative;
+  margin-bottom: 30px;
+  float: left;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+}
+.video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+```
+CSS
+调用iframe时增加DIV块meta-media，并给iframe加class 为video,如下：
+```
+<div class="meta-media"><iframe src="//player.bilibili.com/player.html?aid=14841794&cid=24183753&page=1" frameborder="no" scrolling="yes" allowfullscreen="allowfullscreen" high_quality="1" framespacing="1" class="video" > </iframe></div>
+HTML
+```
+这样两步就解决了！
+
+原理： meta-media元素赋值了一个0值的高度和一个百分比的 bottom padding， 这个百分比的bottom padding 百分比是和容器宽度的百分比,这就得到了一个固定的宽比率。但是为了让这个iframe显示在这个0高度的meta-media里面，你需要设置meta-media定位为relative，并将div里面的iframe的定位设置成absolute.
